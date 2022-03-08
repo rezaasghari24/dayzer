@@ -18,6 +18,10 @@ body {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+}
+
 .top-section {
     display: flex;
     justify-content: center;
@@ -25,9 +29,13 @@ body {
     &__box {
         flex-basis: 80rem;
         display: flex;
-    justify-content: center;
-    align-items: center;
+        justify-content: center;
+        align-items: center;
     }
+}
+.heading-primary{
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .heading-secondary{
@@ -71,3 +79,56 @@ body {
     }
 }
 
+.member-box {
+    display: flex;
+    align-items: center;
+    
+    &__text {
+        flex-basis: 5rem;
+        color: rgba(128, 128, 128, 0.863);
+    }
+}
+
+.id {
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.ver-line {
+    height: 3rem;
+    border: 0;
+    margin: 0 1rem;
+    border-left: .1rem solid rgba(194, 193, 193, 0.329);
+}
+
+.hor-line {
+    border: 0;
+    margin: 2.5rem 0;
+    border-top: .1rem solid rgba(194, 193, 193, 0.329);
+}
+
+.btn-box {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 1rem 1.3rem;
+    border: .1rem solid #4949492d;
+    color: #26282c;
+    border-radius: .9rem;
+}
+.btn-white {
+    
+    padding: 1rem 1.3rem;
+    border-radius: .9rem;
+}
+.btn-black {
+    background-color: #26282c;
+    color: #faf4f2;
+    padding: 1rem 1.3rem;
+    border-radius: .9rem;
+}
