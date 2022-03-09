@@ -40,6 +40,15 @@ a {
 
 .heading-secondary{
     display: flex;
+    font-size: 2rem;
+    &--2 {
+        margin-bottom: 1rem;
+    }
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+    font-weight: 200;
 }
 
 .left-side {
@@ -72,6 +81,7 @@ a {
     justify-content: center;
 
     &__box {
+        
         flex-basis: 80rem;
         background-color: white;
         border-radius: 2rem;
@@ -132,3 +142,30 @@ a {
     padding: 1rem 1.3rem;
     border-radius: .9rem;
 }
+
+.btn-panel {
+    background-color: #faf4f2;
+    color: #26282c;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: inline-block;
+}
+
+.main-panal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-part {
+    background-image: url("../img/3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 14rem;
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
