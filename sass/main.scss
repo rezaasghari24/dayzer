@@ -22,6 +22,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .top-section {
     display: flex;
     justify-content: center;
@@ -34,21 +36,22 @@ a {
     }
 }
 .heading-primary{
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 2rem;
 }
 
 .heading-secondary{
-    display: flex;
-    font-size: 2rem;
-    &--2 {
-        margin-bottom: 1rem;
-    }
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .heading-tertiary {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
+    margin-bottom: 2rem;
+    &--1 {
+        margin-bottom: 0;
+    }
 }
 
 .left-side {
@@ -144,7 +147,7 @@ a {
 }
 
 .btn-panel {
-    background-color: #faf4f2;
+    background-color: #ffffff;
     color: #26282c;
     padding: .5rem 1rem;
     border-radius: .5rem;
@@ -154,9 +157,9 @@ a {
     display: inline-block;
 }
 
-.main-panal {
+.main-panel {
     display: flex;
-    gap: 15rem;
+    gap: 8rem;
 }
 
 .first-part {
@@ -174,6 +177,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
 }
 .panel {
     font-size: 1.3rem;
@@ -190,3 +194,47 @@ a {
     }
 }
 
+.third-part {
+    background-color: #ffe6ab;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__text {
+        :first-child {
+            margin-bottom: .5rem;
+        }
+        :last-child {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__cyrcle {
+        font-size: 2.5rem;
+        font-weight: 500;
+        background-color: #faf4f0;
+        height: 8rem;
+        width: 8rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.first {
+    border: .1rem solid rgba(128, 128, 128, 0.219);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+    width: 34rem;
+}
+
+.head {
+    display: flex;
+    color: rgba(128, 128, 128, 0.863);
+    margin-bottom: .5rem;
+    justify-content: space-between;
+}
